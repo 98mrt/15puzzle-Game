@@ -1,0 +1,77 @@
+h1 {
+    font-size: 2vw;
+    font-family: 'Source Code Pro';
+}
+h2 {
+    font-size: 2vw;
+    font-family: 'Source Code Pro';
+}
+h3 {
+    font-size: 2vw;
+    font-family: 'Source Code Pro';
+}
+
+.bg-white {
+    background-color: #000;
+}
+.setElement{
+    height: 80px;
+    width: 80px;
+    border: 3px solid black;
+    border-radius: 5px;  
+    font-family: 'Source Code Pro';
+}
+.settable{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center; 
+    font-size: 2vw;
+    color: yellow;
+    background-color: black;
+    font-family: 'Source Code Pro';
+}
+.setHeadertable{
+    height: 20%;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center; 
+    font-size: 2vw;
+    color: yellow;
+    background-color: black;
+    font-family: 'Source Code Pro';
+}
+.setbuttonleft{
+    border: 3px solid yellow;
+    border-radius: 5px; 
+    background-color: yellow;
+    font-family: 'Source Code Pro';
+}
+.setbuttonright{
+    border: 3px solid black;
+    border-radius: 5px; 
+    background-color: black;
+    font-family: 'Source Code Pro';
+}
+.buttonleft{
+    height: 10%;
+    width: 100%;
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+    border-radius: 5px;  
+    font-size: 2vw;
+    font-family: 'Source Code Pro';
+}
+.buttonright{
+    
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    color: yellow;
+    border-radius: 5px;  
+    font-size: 2vw;
+    font-family: 'Source Code Pro';
+}

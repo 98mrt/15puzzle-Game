@@ -1,0 +1,80 @@
+<html>
+    <head >
+        <title>
+            15-puzzle game
+        </title>
+        <link rel="stylesheet" href="15puzzle.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body onload="initial()">
+        <table align="center" border="0" width="40%" class="setHeadertable">
+            <tr>
+                <td colspan="4">
+                    <h1>15 puzzle</h1>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%" align="right">
+                    <h2>move : </h2> 
+                </td>
+                <td width="25%">
+                    <h2 id="move" value=""></h2>
+                </td>
+                <td width="25%" align="right" class="">
+                    <h3>time : </h3>
+                </td>
+                <td width="25%">
+                    <h3 id="time" value=""></h3>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" align="center" class="settable" >
+            <tr class="setElement" height="100px">
+                <td class="setElement" width="100px" onclick="action(0,0)" id="1"><p id="1" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(0,1)" id="2"><p id="2" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(0,2)" id="3"><p id="3" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(0,3)" id="4"><p id="4" value="" ></p></td>
+            </tr>
+
+            <tr class="setElement" height="100px">
+                <td class="setElement" width="100px" onclick="action(1,0)" id="5"><p id="5" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(1,1)" id="6"><p id="6" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(1,2)" id="7"><p id="7" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(1,3)" id="8"><p id="8" value="" ></p></td>
+            </tr>
+
+            <tr class="setElement" height="100px">
+                <td class="setElement" width="100px" onclick="action(2,0)" id="9"><p id="9" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(2,1)" id="10"><p id="10" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(2,2)" id="11"><p id="11" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(2,3)" id="12"><p id="12" value="" ></p></td>
+            </tr>
+
+            <tr class="setElement" height="100px">
+                <td class="setElement" width="100px" onclick="action(3,0)" id="13"><p id="13" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(3,1)" id="14"><p id="14" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(3,2)" id="15"><p id="15" value="" ></p></td>
+                <td class="setElement" width="100px" onclick="action(3,3)" id="16"><p id="16" value="" ></p></td>
+            </tr>
+        </table>
+        <br>
+        <table align="center" border="0" width="20%" cellspacing="3">
+            <tr height="10px">
+                <td width="50%" align="center">
+                    <input class="buttonleft" type="button" value="solve" onclick="initial()">
+                </td>
+                <td width="50%" align="center">
+                    <input class="buttonright" type="button" value="scramble" onclick="scramble()">
+                </td>
+            </tr>
+        </table>
+        
+        
+        
+
+        <script src="algorithm.js">
+            
+        </script>
+    </body>
+</html>
